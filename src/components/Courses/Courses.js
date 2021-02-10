@@ -22,7 +22,7 @@ const Courses = () => {
               <p>
                 Top instructors from around the teach millions of
                 <br className="break-point" /> students on Quillow. Get
-                unlimited access to 5000+ of <br className="teacher-pic" />
+                unlimited access to 5000+ of <br className="break-point" />
                 Quillow's top courses for your teams.
               </p>
             </div>

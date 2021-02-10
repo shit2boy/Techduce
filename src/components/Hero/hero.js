@@ -1,6 +1,6 @@
 import React from "react";
 // import NavBar from "../NavBar/NavigationBar";
-import FormInput from "../Form-input/form-input.component";
+// import FormInput from "../Form-input/form-input.component";
 import LoginButton from "../CustomButton/CustomButton";
 import "./hero.css";
 

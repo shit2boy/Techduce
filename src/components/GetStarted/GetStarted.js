@@ -3,15 +3,22 @@ import GetStartedBtn from "../CustomButton/CustomButton";
 import ladymay from "../../Assesst/ladymay.jpg";
 import brownman from "../../Assesst/brownman.jpg";
 import "./GetStarted.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const GetStarted = () => {
+  AOS.init({
+    duration: 2000,
+    // disable: "mobile",
+  });
+
   return (
     <>
       <section className="containear">
         <div className="grid-2">
           <div className="left-grid">
             <div className="image1">
-              <div className="expert-card">
+              <div className="expert-card" data-aos="fade-left">
                 <div>
                   <img
                     className="img-circle"
@@ -26,9 +33,8 @@ const GetStarted = () => {
                 </div>
               </div>
             </div>
-            <div className="image3"></div>
             <div className="image2">
-              <div className="expert-card">
+              <div className="expert-card" data-aos="fade-down-right">
                 <div className="course-footer">
                   <div className=" course-footer-title">
                     <div>
@@ -64,8 +70,9 @@ const GetStarted = () => {
           </div>
         </div>
       </section>
+
       <section className="containear">
-        <div className="grid-2 left-grid2">
+        <div className="grid-2">
           <div className="all-center">
             <div>
               <h2 className="hero-title">
@@ -80,7 +87,7 @@ const GetStarted = () => {
           </div>
           <div className="left-grid ">
             <div className="image1">
-              <div className="expert-card">
+              <div className="expert-card" data-aos="fade-left">
                 <div>
                   <img
                     className="img-circle"
@@ -95,9 +102,8 @@ const GetStarted = () => {
                 </div>
               </div>
             </div>
-            <div className="image3"></div>
             <div className="image2">
-              <div className="expert-card">
+              <div className="expert-card" data-aos="fade-left">
                 <div className="course-footer">
                   <div className=" course-footer-title">
                     <div>
@@ -109,7 +115,7 @@ const GetStarted = () => {
                       />
                     </div>
 
-                    <div className="footer-info p-4">
+                    <div className="footer-info p-2">
                       <h5>Elizabeth Turner</h5>
                       <strong>Expert Teacher</strong>
                     </div>

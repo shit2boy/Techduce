@@ -7,7 +7,16 @@ import zoom from "../../Assesst/zoom.png";
 import slack from "../../Assesst/slack.png";
 import spotify from "../../Assesst/spotify.png";
 import "./sponsor.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Sponsors = () => {
+  AOS.init({
+    duration: 2000,
+    // disable: "mobile",
+  });
+
   return (
     <section className="container" style={{ marginTop: "3rem" }}>
       <div className="all-center">
@@ -23,7 +32,7 @@ const Sponsors = () => {
             </Button>
           </div>
           <div className="sponsor-icons">
-            <div className="sponsorsicon">
+            <div className="sponsorsicon" data-aos="flip-up">
               <img src={google} alt="icon" width="120px" />
               <img src={slack} alt="icon" width="120px" />
               <img
@@ -33,7 +42,7 @@ const Sponsors = () => {
                 className="faintsvg"
               />
             </div>
-            <div className="sponsorsicon">
+            <div className="sponsorsicon" data-aos="flip-left">
               <img src={amazon} alt="icon" width="120px" />
               <img src={zoom} alt="icon" width="120px" className="faintsvg" />
               <img src={netflix} alt="icon" width="120px" />
