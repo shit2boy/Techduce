@@ -5,14 +5,12 @@ const Footer = () => {
   return (
     <footer className="foot">
       <div className="grid-4 ">
-        <div className="footTitle">
+        <div className="">
           <p className="foot-icon p-2">
             {" "}
             <i class="fas fa-leaf fa-2x" />{" "}
           </p>
-          <h3 className="hero-title ">
-            A learning platform powered by Quillow
-          </h3>
+          <h3 className="footTitle">A learning platform powered by Quillow</h3>
           <p>
             <a href="mailto:hello@quillow.edu">hello@quillow.edu</a>
           </p>
