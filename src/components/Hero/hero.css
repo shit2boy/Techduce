@@ -3,19 +3,18 @@
   /* width: 100vh; */
   height: 100vh;
   padding: 30px;
-  padding-top: 100px;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-  /* flex-direction: column; */
+  padding-bottom: 20px;
+  padding-top: 90px;
   place-items: center;
 }
 .bg-img {
   background-color: #d0edf5;
   background-image: url("../../Assesst/heroman.jpg");
+  background-position: 0 5% center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 95%;
 }
 .hero-content {
   padding: 20px;
