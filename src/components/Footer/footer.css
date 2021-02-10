@@ -38,11 +38,14 @@
   /* .foot-icon {
     text-align: center;
   } */
+
   .foot-items li:not(:first-child) {
     padding: 5px;
     font-size: 1.1rem;
   }
-
+  .foot-items {
+    padding: 5px;
+  }
   .footTitle {
     font-size: 22px;
   }
