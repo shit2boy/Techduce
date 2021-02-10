@@ -1,6 +1,7 @@
 .foot {
-  width: 1500px;
-  margin: 100px auto 50px auto;
+  min-width: 1300px;
+  margin: 100px 50px 50px 80px;
+  padding: 40px;
 }
 .foot-items li {
   padding: 15px;
