@@ -1,0 +1,58 @@
+.subcribe-container {
+  margin: 55px 0;
+}
+.subcribe-BgImg {
+  background-image: url(../../Assesst/blackBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 500px;
+  display: grid;
+  padding: 40px;
+  place-items: center;
+}
+.subcribe-BgImg .form {
+  display: flex;
+}
+.subcribe-BgImg .form input {
+  margin: 0 15px;
+  width: 400px;
+  padding: 12px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.subcribe-BgImg .form input:focus,
+.subcribe-BgImg .form input:hover {
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+}
+.subcribe-BgImg .form input:active {
+  border: none;
+  outline: none;
+}
+.subcribe-BgImg .form input::placeholder {
+  color: rgba(245, 235, 255, 0.2);
+}
+
+@media (max-width: 460px) {
+  .subcribe-BgImg {
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding: 20px;
+  }
+
+  .subcribe-BgImg .form input {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px;
+  }
+  .subcribe-BgImg .form {
+    flex-direction: column;
+  }
+  .subcribe-BgImg .hero-title {
+    padding: 1rem;
+  }
+}

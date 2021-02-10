@@ -1,0 +1,8 @@
+.teacher-container {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 10%;
+  overflow: hidden;
+  /* background-color: #ceebf3; */
+  padding: 1.4rem 2rem;
+}

@@ -1,0 +1,59 @@
+.containear {
+  margin: 80px 0px;
+}
+.left-grid {
+  display: grid;
+  grid-template-areas:
+    " . . . image1 image1 image1"
+    ".  . .image1 image1 image1"
+    ". . image2 image2 image2 .";
+  gap: 20px;
+  place-items: centera;
+  width: 100%;
+}
+
+.image1 {
+  grid-area: image1;
+}
+.image2 {
+  grid-area: image2;
+}
+
+.expert-card {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  align-content: center;
+  max-width: 500px;
+  min-width: 12rem;
+  min-height: 150px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+@media (max-width: 480px) {
+  .containear {
+    margin: 40px 25px;
+  }
+  .left-grid {
+    display: grid;
+    grid-template-areas:
+      "  image1 image1 image1"
+      "image1 image1 image1"
+      " image2 image2 image2";
+    gap: 10px;
+    place-items: center;
+    width: 100%;
+  }
+  .left-grid2 {
+    grid-auto-rows: min-content;
+  }
+}

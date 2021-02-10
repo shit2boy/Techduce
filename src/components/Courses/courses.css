@@ -1,0 +1,31 @@
+.course-container {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 10%;
+  overflow: hidden;
+  background-color: #f3e7d8;
+  padding: 1.4rem 2rem;
+}
+
+.course-title {
+  display: flex;
+  width: 80%;
+  margin: 50px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .course-title {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

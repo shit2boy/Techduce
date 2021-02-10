@@ -1,0 +1,43 @@
+.sponsors-content {
+  padding: 25px;
+  width: 65%;
+}
+.sponsor-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsor-icons {
+  padding: 20px;
+  margin-top: 1.5rem;
+}
+.sponsorsicon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+.faintsvg {
+  background-color: #dad5d5;
+}
+@media (max-width: 480px) {
+  .sponsors-content {
+    width: 100%;
+    padding: 15px;
+  }
+  .sponsor-text {
+    flex-direction: column;
+  }
+  .sponsor-icons {
+    padding: 5px 0;
+    display: flex;
+  }
+  .sponsorsicon {
+    flex-direction: column;
+    margin-right: 8px;
+  }
+  .sponsorsicon img {
+    padding: 8px;
+    width: 100px;
+  }
+}

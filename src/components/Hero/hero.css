@@ -1,0 +1,110 @@
+.hero {
+  background-color: #d0edf5;
+  /* width: 100vh; */
+  height: 100vh;
+  padding: 30px;
+  padding-top: 100px;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  /* flex-direction: column; */
+  place-items: center;
+}
+.bg-img {
+  background-color: #d0edf5;
+  background-image: url("../../Assesst/heroman.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.hero-content {
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 900;
+}
+.hero-subtitles {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.checkedIcon {
+  vertical-align: middle;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.hero-input {
+  display: flex;
+  margin-top: 2rem;
+}
+.hero-input input {
+  padding: 10px;
+  width: 350px;
+}
+
+.text-tag {
+  display: flex;
+  padding-top: 2.2rem;
+}
+.text-tag .iccon {
+  background-color: #3d3838;
+  border-radius: 50%;
+  padding: 20px;
+  color: #ffffff;
+  align-items: center;
+  margin-right: 8px;
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .hero {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-img {
+    display: none;
+  }
+  .hero-subtitles {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .checkedIcon {
+    width: 10px;
+    margin-right: 4px;
+  }
+  .hero-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .hero-input input {
+    padding: 10px;
+    width: 100%;
+    /* margin-bottom: 8px; */
+  }
+  .hero-btn {
+    width: 100%;
+    padding: 20px;
+  }
+  .text-tag {
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 2rem;
+  }
+  .text-tag .iccon {
+    background-color: #3d3838;
+    border-radius: 50%;
+    padding: 20px;
+    color: #ffffff;
+    align-items: center;
+    margin-right: 8px;
+  }
+}
