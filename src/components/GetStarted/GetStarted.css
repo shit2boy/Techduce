@@ -11,6 +11,16 @@
   place-items: centera;
   width: 100%;
 }
+.right-grid {
+  display: grid;
+  grid-template-areas:
+    "  . . image1 image1 image1 . . ."
+    "  . . image1 image1 image1 . . ."
+    " . image2 image2 image2 . . . . ";
+  gap: 20px;
+  place-items: centera;
+  width: 100%;
+}
 
 .image1 {
   grid-area: image1;
