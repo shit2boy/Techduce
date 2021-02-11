@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="hero-content">
           <h3 className="hero-title">
             Launch your own
-            <br className="break-point" /> online learning <br />
+            <br className="break-poeint" /> online learning <br />
             platform
           </h3>
           <div className="hero-subtitles">

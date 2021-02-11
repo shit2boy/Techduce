@@ -7,7 +7,7 @@ const SubcribeForm = () => {
     <div className=" subcribe-container all-center">
       <div className="subcribe-BgImg">
         <h3
-          className="hero-title p-5"
+          className="hero-title "
           style={{ textAlign: "center", color: "#d5d5d5" }}
         >
           Launch your own <br />
