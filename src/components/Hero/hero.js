@@ -29,7 +29,7 @@ const Hero = () => {
             <input type="text" placeholder="Enter your email ..." />
             <div
               className="hero-btn"
-              style={{ alignSelf: "center", marginLeft: "10px" }}
+              // style={{ alignSelf: "center", marginLeft: "10px" }}
             >
               <LoginButton>Start Learning</LoginButton>
             </div>

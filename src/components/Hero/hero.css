@@ -2,7 +2,7 @@
   background-color: #d0edf5;
   /* width: 100vh; */
   height: 100vh;
-  padding: 30px;
+  padding: 25px;
   padding-bottom: 20px;
   padding-top: 90px;
   place-items: center;
@@ -10,7 +10,7 @@
 .bg-img {
   background-color: #d0edf5;
   background-image: url("../../Assesst/heroman.jpg");
-  background-position: 17% left 5% top;
+  background-position: left 37% top 5%;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -21,7 +21,7 @@
 }
 
 .hero-title {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 900;
 }
 .hero-subtitles {
@@ -40,7 +40,11 @@
 }
 .hero-input input {
   padding: 10px;
-  width: 350px;
+  width: 100%;
+}
+.hero-btn {
+  /* align-self: center; */
+  margin-left: 10px;
 }
 
 .text-tag {
@@ -81,17 +85,17 @@
   }
   .hero-input {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-top: 2rem;
   }
   .hero-input input {
-    padding: 10px;
-    width: 100%;
+    /* padding: 10px; */
+    /* width: 100%; */
     /* margin-bottom: 8px; */
   }
   .hero-btn {
-    width: 100%;
-    padding: 20px;
+    max-width: 100%;
+    /* padding: 20px; */
   }
   .text-tag {
     display: flex;
